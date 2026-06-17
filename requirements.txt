@@ -1,0 +1,20 @@
+# Core
+numpy>=1.21.0,<2.0.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+
+# Deep learning & ML
+torch>=1.13.0
+lightgbm>=3.3.0
+
+# Reinforcement learning (optional PPO pipeline)
+gymnasium>=0.28.0
+stable-baselines3>=2.0.0
+
+# Desktop GUI
+PySide6>=6.5
+pyqtgraph>=0.13
+plotly>=5.0
+
+# Visualization
+matplotlib>=3.5.0

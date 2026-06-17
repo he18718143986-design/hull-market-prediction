@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Kaggle competition data (download separately)
+train.csv
+test.csv
+*.parquet
+
+# Model checkpoints & run artifacts
+checkpoints/
+runs/
+gui_models/
+jobs/
+*.pth
+*.pt
+*.pkl
+*.zip
+*.txt
+!requirements.txt
+
+# Generated outputs
+*.png
+*.jpg
+*.html
+experiments.json
+training_logs.csv
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
